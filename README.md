@@ -106,3 +106,36 @@ The segmented analysis revealed that a "one-size-fits-all" model is suboptimal. 
 ---
 
 ## File Structure
+├── data/ # Data source information
+├── notebooks/ # Main analysis Jupyter Notebook
+│ └── Telco_Churn_Analysis.ipynb
+├── images/ # Key visualizations used in the README
+├── README.md # This file
+└── requirements.txt # Python package dependencies
+
+---
+
+## How to Reproduce
+
+1.  Clone this repository:
+    ```bash
+    git clone https://github.com/Iyeose/Telco-Customer-Churn-Prediction.git
+    cd Telco-Customer-Churn-Prediction
+    ```
+2.  (Optional but recommended) Create and activate a virtual environment:
+    ```bash
+    python -m venv env
+    source env/bin/activate  # On Windows, use `env\Scripts\activate`
+    ```
+3.  Install the required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+4.  Download the dataset from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) and place the `WA_Fn-UseC_-Telco-Customer-Churn.csv` file in the root directory of the project.
+5.  Launch Jupyter Notebook or JupyterLab and open the `notebooks/Telco_Churn_Analysis.ipynb` file.
+
+---
+
+## Conclusion
+
+This project successfully demonstrates the use of machine learning to predict customer churn. The key takeaway is the significant value of a **segmented modeling strategy**. By analyzing and building models for distinct customer groups based on contract type, we uncovered more specific and actionable insights into churn drivers than a global model could provide. The best models for each segment achieved high recall, successfully identifying the majority of at-risk customers, which is the first step in an effective customer retention strategy.
