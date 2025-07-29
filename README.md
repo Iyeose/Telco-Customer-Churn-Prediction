@@ -89,8 +89,7 @@ The segmented analysis revealed that a "one-size-fits-all" model is suboptimal. 
 *   **One-Year contract customers'** churn is more nuanced, driven by the perceived value of their specific service package (e.g., streaming services).
 *   **Two-Year contract customers** are very loyal, but when they do churn, it's often linked to friction with premium services like Fiber Optic or high monthly charges.
 
-![Feature Importance for Month-to-Month Segment](images/feature_importance_xgb_mtm.png "XGBoost Feature Importance - MTM Segment")(https://github.com/Iyeose/Telco-Customer-Churn-Prediction/blob/main/Images/MTM%20Feature%20Importances.png)
-*(This is an example. Replace with the path to one of your key visualization images.)*
+![Feature Importance for Month-to-Month Segment](https://github.com/Iyeose/Telco-Customer-Churn-Prediction/blob/main/Images/MTM%20Feature%20Importances.png)
 
 ---
 
