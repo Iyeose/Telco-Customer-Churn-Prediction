@@ -36,7 +36,7 @@ The objective of this project is to develop and evaluate machine learning models
 
 This project utilizes the **"Telco Customer Churn"** dataset, which contains 7043 customer records and 21 features.
 
-*   **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+*   **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) 
 *   **Features:** The dataset includes customer demographics (gender, senior citizen status), account information (tenure, contract type, payment method, monthly/total charges), and subscribed services (phone, internet, online security, etc.).
 *   **Target Variable:** `Churn` - A binary indicator of whether the customer has left the company.
 
@@ -89,7 +89,7 @@ The segmented analysis revealed that a "one-size-fits-all" model is suboptimal. 
 *   **One-Year contract customers'** churn is more nuanced, driven by the perceived value of their specific service package (e.g., streaming services).
 *   **Two-Year contract customers** are very loyal, but when they do churn, it's often linked to friction with premium services like Fiber Optic or high monthly charges.
 
-![Feature Importance for Month-to-Month Segment](images/feature_importance_xgb_mtm.png "XGBoost Feature Importance - MTM Segment")
+![Feature Importance for Month-to-Month Segment](images/feature_importance_xgb_mtm.png "XGBoost Feature Importance - MTM Segment")(https://github.com/Iyeose/Telco-Customer-Churn-Prediction/blob/main/Images/MTM%20Feature%20Importances.png)
 *(This is an example. Replace with the path to one of your key visualization images.)*
 
 ---
